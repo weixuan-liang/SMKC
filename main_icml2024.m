@@ -4,7 +4,7 @@ clear
 prefix = './';
 addpath(genpath('./'));
 
-dataNameSet =  {'Cifar10'};
+dataNameSet =  {'Hdigit'};
 
 for name = 1
     load(['.\dataset\', dataNameSet{name}, '.mat'])
